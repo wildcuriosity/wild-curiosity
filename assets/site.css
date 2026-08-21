@@ -229,3 +229,16 @@ h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.8rem,8vw,5.6rem);
   font-family:var(--serif);font-size:clamp(1.05rem,1.7vw,1.25rem);line-height:1.4}
 .band--dark .rules li{border-color:rgba(245,240,232,.18)}
 @media(max-width:860px){.rules{grid-template-columns:1fr}}
+
+
+/* what travels — typographic list of published work */
+.travels{list-style:none;margin:clamp(1.75rem,3vw,2.5rem) 0 0;padding:0;max-width:60rem}
+.travels li{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.35rem 1.5rem;
+  padding:1rem 0;border-bottom:1px solid var(--rule)}
+.travels a{font-family:var(--serif);font-size:clamp(1.1rem,1.9vw,1.35rem);text-decoration:none;
+  border-bottom:1px solid transparent;transition:border-color .25s}
+.travels a:hover{border-bottom-color:var(--ink)}
+.travels .n{font-family:var(--mono);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-faint);white-space:nowrap;padding-top:.4rem}
+.travels .n b{color:var(--terracotta);font-weight:400}
+.travels .nolink{font-family:var(--serif);font-size:clamp(1.1rem,1.9vw,1.35rem)}
